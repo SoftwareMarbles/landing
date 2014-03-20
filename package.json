@@ -1,0 +1,25 @@
+{
+  "name": "landing",
+  "version": "0.0.1",
+  "description": "Landing page server",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha -R spec --compilers coffee:coffee-script/register tests/**/*.tests.*coffee"
+  },
+  "keywords": [
+    "landing",
+    "page"
+  ],
+  "author": "Ivan Erceg",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "chai": "^1.9.1",
+    "express": "^3.4.8",
+    "supertest": "^0.9.2"
+  },
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "node-static": "^0.7.3"
+  }
+}
