@@ -2,16 +2,27 @@
   "name": "landing",
   "version": "0.0.1",
   "description": "Landing page server",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "test": "NODE_ENV=test ./node_modules/.bin/mocha -R spec --compilers coffee:coffee-script/register tests/**/*.tests.*coffee"
   },
   "keywords": [
     "landing",
-    "page"
+    "landing page",
+    "Express"
   ],
-  "author": "Ivan Erceg",
+  "author": {
+    "name": "Ivan Erceg",
+    "email": "ivan@softwaremarbles.com"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SoftwareMarbles/landing"
+  },
+  "bugs": {
+    "url": "https://github.com/SoftwareMarbles/landing/issues"
+  },
   "devDependencies": {
     "mocha": "^1.18.2",
     "chai": "^1.9.1",
@@ -21,5 +32,8 @@
   "dependencies": {
     "coffee-script": "^1.7.1",
     "node-static": "^0.7.3"
-  }
+  },
+  "readmeFilename": "README.md",
+  "_id": "landing@0.0.1",
+  "_from": "landing@^0.0.1"
 }
